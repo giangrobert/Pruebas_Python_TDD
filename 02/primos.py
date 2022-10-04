@@ -22,5 +22,6 @@ def suma_de_primos(nums):
     for i in nums:
         if es_primo(i):
             primos.append(i)
-    print(primos)
     return sum(primos)
+
+    #return sum([x for x in nums if es_primo(x)])

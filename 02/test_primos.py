@@ -30,4 +30,4 @@ def test_suma_primos_vacio():
 
 
 def test_suma_de_numeros_mixtos_primos():
-    assert suma_de_primos([1,2,15,11]) == 13
+    assert suma_de_primos([1,2,15,11]) == 26
